@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding doesn't affect element dimensions */
+}
+
+/* Improved .viewBook button with hover effects and transitions */
+.viewBook {
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 8px 25px; /* Slightly larger padding for better clickability */
+  color: white;
+  font-size: 1.1rem; /* Using rem for better responsiveness */
+  border-radius: 4px; /* Subtle rounded corners */
+  cursor: pointer; /* Shows it's clickable */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+  letter-spacing: 0.5px; /* Better typography */
+  text-decoration: none; /* In case used on anchor tags */
+  display: inline-block; /* Better spacing control */
+}
+
+/* Hover and focus states */
+.viewBook:hover,
+.viewBook:focus {
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+  transform: translateY(-1px); /* Slight lift effect */
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1); /* Soft glow */
+}
+
+/* Active state when clicking */
+.viewBook:active {
+  transform: translateY(0);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .viewBook {
+    padding: 6px 18px;
+    font-size: 1rem;
+  }
+}

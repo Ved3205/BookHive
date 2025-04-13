@@ -1,0 +1,52 @@
+/* Updated Home.css with premium color scheme */
+.Home-Page {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a2a3a 0%, #0d1b2a 100%);
+}
+
+.viewBook {
+    background-color: transparent;
+    color: #f8f9fa;
+    border: 2px solid #d4af37; /* Gold border */
+    padding: 12px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.viewBook:hover {
+    background-color: rgba(212, 175, 55, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
+}
+
+.homeimg {
+    max-height: 80vh;
+    width: auto;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+}
+
+/* Text styling additions */
+h2 {
+    color: #f8f9fa;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #d4af37; /* Gold accent */
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #adb5bd; /* Soft silver */
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
