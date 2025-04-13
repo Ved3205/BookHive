@@ -107,7 +107,7 @@ Make sure to update environment variables (for MongoDB URI) before deploying.
 
 ## 👤 Author
 
-- **Your Name**
+- **Vednarayan Hiralkar**
 - GitHub: (https://github.com/Ved3205)
 
 ---
